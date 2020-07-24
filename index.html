@@ -32,7 +32,7 @@
     <h1 id="answer" />
     <script>
       const year = new Date().getFullYear();
-      const answer = document.getElementById('answer');
+      const answer = document.querySelector('#answer');
 
       const isLeapYear = function (year) {
         return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
