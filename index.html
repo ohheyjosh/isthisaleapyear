@@ -38,7 +38,7 @@
         return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
       };
 
-      if (isLeapYear) {
+      if (isLeapYear && isLeapYear == true) {
         answer.innerText = 'Yes.';
       } else {
         answer.innerText = 'No.';
